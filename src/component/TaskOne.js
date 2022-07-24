@@ -56,11 +56,11 @@ const TaskOne = () => {
 
             {/* INPUT */}
             <div className='flex justify-center pt-10'>
-                <input ref={itemsARef} type="text" name="cycle" placeholder="Add cycle" className="input input-bordered w-full max-w-xs " />
+                <input ref={itemsARef} type="text" name="cycle" placeholder="Add item A" className="input input-bordered w-full max-w-xs " />
 
                 <button className="btn bg-sky-500 mx-2 text-white text-xl" onClick={handleA} >Add A</button>
 
-                <input ref={itemsBRef} type="text" name="cycle" placeholder="Add cycle" className="input input-bordered w-full max-w-xs " />
+                <input ref={itemsBRef} type="text" name="cycle" placeholder="Add item B" className="input input-bordered w-full max-w-xs " />
 
                 <button className="btn bg-sky-500 mx-2 text-white text-xl" onClick={handleB} >Add B</button>
             </div>
